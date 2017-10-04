@@ -20,7 +20,8 @@ class LagompricepredictorServiceImpl() extends LagompricepredictorService {
   override def search(query: String): ServiceCall[NotUsed, String] = ServiceCall { request =>
 
     Future.successful{
-      "python  /home/yard/development/scala-projects/model/plot_ols.py" !!
+      "python  /home/yard/development/scala-projects/lagom-regression/models/olsregression/plot_ols.py" !!
+
     }
   }
 
