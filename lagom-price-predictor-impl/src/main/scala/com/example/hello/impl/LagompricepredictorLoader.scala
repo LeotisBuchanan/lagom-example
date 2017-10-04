@@ -36,5 +36,5 @@ abstract class LagompricepredictorApplication(context: LagomApplicationContext)
   override lazy val jsonSerializerRegistry = LagompricepredictorSerializerRegistry
 
   // Register the lagom-price-predictor persistent entity
-  persistentEntityRegistry.register(wire[LagompricepredictorEntity])
+  //persistentEntityRegistry.register(wire[LagompricepredictorEntity])
 }
